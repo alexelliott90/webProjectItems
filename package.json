@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "start"
+    "start": "nodemon webProjectItems_server.js"
   },
   "author": "alex elliott",
   "license": "ISC",
   "devDependencies": {
+    "http-proxy-middleware": "^2.0.6",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
